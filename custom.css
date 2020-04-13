@@ -1,3 +1,6 @@
+body {
+    background-color: #F0F0F0;
+}
 h1, h2, h3, h4, h5 {
     font-family: Anton;
     text-transform: uppercase;
@@ -21,9 +24,9 @@ p {
     font-family: Abel;
     text-transform: uppercase;
 }
-div{
-    background-color: #F0F0F0;
-}
+/*div{*/
+/*    background-color: #F0F0F0;*/
+/*}*/
 
 .circle {
     width: 105px;
@@ -47,8 +50,8 @@ img {
     width: 18px;
     height: 18px;
     font-family: Abel;
-    border: solid black 1px;
-
+    /*border: solid black 1px;*/
+    font-weight: bold;
 }
 
 .red {
