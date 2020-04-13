@@ -20,3 +20,15 @@ h5 {
 p {
     font-family: Abel;
 }
+div{
+    background-color: #E6E6E6;
+}
+
+.circle {
+    width: 105px;
+    height: 105px;
+    padding-top: 30px;
+    border: solid white 8px;
+    text-transform: uppercase;
+    font-family: Abel;
+}
