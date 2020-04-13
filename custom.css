@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F0F0F0;
 }
@@ -23,6 +27,7 @@ h5 {
 p {
     font-family: Abel;
     text-transform: uppercase;
+    background-color: #F0F0F0;
 }
 /*div{*/
 /*    background-color: #F0F0F0;*/
@@ -38,12 +43,40 @@ p {
     margin: auto;
 }
 
-img {
+.image-div {
+    width: 100%;
+    height: 250px;
     border: solid #e6e6e6 8px;
+}
+
+.image-div-1 {
+    background-image: url("img/apple-ipad.jpg");
+    background-color: #CCCCCC;
+    background-size: cover;
+}
+
+.image-div-2 {
+    background-image: url("img/macbook.jpg");
+    background-color: #CCCCCC;
+    background-size: cover;
+}
+
+.image-div-3 {
+    background-image: url("img/man.jpg");
+    background-color: #CCCCCC;
+    background-size: cover;
+}
+
+.image-div-4 {
+    background-image: url("img/security.jpg");
+    background-color: #CCCCCC;
+    background-size: cover;
 }
 
 .card {
     border-radius: 10px 10px;
+    background-color: unset;
+    border-style: none;
 }
 
 .icon {
