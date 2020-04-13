@@ -19,9 +19,10 @@ h5 {
 }
 p {
     font-family: Abel;
+    text-transform: uppercase;
 }
 div{
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
 
 .circle {
@@ -32,4 +33,36 @@ div{
     text-transform: uppercase;
     font-family: Abel;
     margin: auto;
+}
+
+img {
+    border: solid #e6e6e6 8px;
+}
+
+.card {
+    border-radius: 10px 10px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    font-family: Abel;
+    border: solid black 1px;
+
+}
+
+.red {
+    background: #E6563B;
+}
+
+.orange {
+    background: #DEA03D;
+}
+
+.green {
+    background: #7CB06C;
+}
+
+.blue {
+    background: #00ABA9;
 }
