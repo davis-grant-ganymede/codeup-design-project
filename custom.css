@@ -40,7 +40,7 @@ h5 {
     font-family: 'Abel', 'sans-serif';
     font-size: small;
     text-transform: uppercase;
-    background-color: #F0F0F0;
+    /*background-color: #F0F0F0;*/
 }
 
 .circle {
@@ -133,70 +133,4 @@ h5 {
     font-size: small;
     text-transform: capitalize;
     background-color: #F0F0F0;
-}
-
-
-/*small*/
-@media screen and (min-width: 576px) {
-
-    ._nav-left {
-        position: relative;
-        top: -165px;
-        left: 20px;
-        background-color: white;
-    }
-    ._nav-right {
-        position: relative;
-        top: -165px;
-        left: -30px;
-        background-color: white;
-    }
-}
-/*medium*/
-@media screen and (min-width: 768px) {
-    .logo {
-        position: relative;
-        left: -260px;
-    }
-    .codeup-header {
-        position: relative;
-        left: -100px;
-        top: -75px;
-        font-size: xx-large;
-
-    }
-
-    ._nav-left {
-        position: relative;
-        top: -125px;
-        left: 420px;
-        background-color: white;
-    }
-
-    ._nav-right {
-        position: relative;
-        top: -125px;
-        left: 80px;
-        background-color: white;
-    }
-
-}
-
-/*large & x-large*/
-@media screen and (min-width: 992px){
-
-    ._nav-left {
-        position: relative;
-        top: -125px;
-        left: 700px;
-        background-color: white;
-    }
-
-    ._nav-right {
-        position: relative;
-        top: -125px;
-        left: -100px;
-        background-color: white;
-    }
-
 }
