@@ -13,7 +13,8 @@
 <body>
 <!--Nav-->
 <div class="row">
-    <div class="col-12">
+<!--Default xm navbar-->
+    <div class="col-12 d-sm-none d-block">
         <header>
             <div class="headerbg"></div>
             <div>
@@ -22,17 +23,15 @@
             </div>
         </header>
 
-        <nav class="p-style navbar navbar-expand-md navbar-fixed-top navbar-light bg-grey main-nav _nav-main mx-5">
+        <nav class="p-style navbar-light bg-grey main-nav _nav-main mx-5">
             <div class="container">
-                <ul class="nav navbar-nav flex-row _nav-left">
-                    <li class="nav-item active mr-4">
+                <ul class="nav justify-content-center navbar-nav flex-row">
+                    <li class="nav-item active ml-3 mr-4">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active mr-4">
                         <a class="nav-link" href="#">Work</a>
                     </li>
-                </ul>
-                <ul class="nav navbar-nav flex-row _nav-right">
                     <li class="nav-item active mr-4">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
@@ -43,6 +42,39 @@
             </div>
         </nav>
     </div>
+<!--        Small navbar-->
+        <div class="col-12 d-none d-sm-block d-md-none">
+            <header>
+                <div class="headerbg"></div>
+                <div>
+<!--                    <img src="img/logo.png" alt="logo" class="logo mx-auto d-block">-->
+                    <h1 class="codeup-header text-center">Codeup design</h1>
+                </div>
+            </header>
+
+            <nav class="p-style navbar-light bg-grey main-nav mx-5">
+                <div class="container">
+                    <ul class="nav justify-content-center navbar-nav flex-row">
+                        <li class="nav-item active ml-3 mr-4">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li>
+                            <img src="img/logo.png" alt="logo" class="logo mx-auto d-block">
+                        </li>
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+
 </div>
 <!--Buttons-->
 <div class="container col-md-12 col-lg-8">
