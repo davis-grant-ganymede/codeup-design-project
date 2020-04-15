@@ -64,30 +64,31 @@ h5 {
     height: 250px;
     border: solid #E6E6E6 8px;
     border-radius: 10px;
+    background-size: cover;
 }
 
 .image-div-1 {
-    background-color: #F0F0F0;
+    /*background-color: #F0F0F0;*/
     background-image: url("img/apple-ipad.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .image-div-2 {
-    background-color: #F0F0F0;
+    /*background-color: #F0F0F0;*/
     background-image: url("img/macbook.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .image-div-3 {
-    background-color: #F0F0F0;
+    /*background-color: #F0F0F0;*/
     background-image: url("img/man.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .image-div-4 {
-    background-color: #F0F0F0;
+    /*background-color: #F0F0F0;*/
     background-image: url("img/security.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .card {
